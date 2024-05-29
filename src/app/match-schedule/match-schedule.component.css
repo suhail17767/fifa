@@ -1,0 +1,42 @@
+.schedule {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-row {
+    display: contents;
+  }
+  
+  .header-row {
+    font-weight: bold;
+  }
+  
+  .grid-cell {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .grid-cell:nth-child(1),
+  .grid-cell:nth-child(2) {
+    font-weight: bold;
+  }
+  
+  .grid-cell div {
+    margin-bottom: 5px;
+  }
+  
